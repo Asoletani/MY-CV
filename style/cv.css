@@ -1,0 +1,237 @@
+* {
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+@keyframes loadAnimation {
+    100% {
+        width: 5px;
+    }
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(5, 10, 31, 1);
+    background-position: center;
+
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    padding-right: 5%;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    color: rgb(250, 253, 255);
+    opacity: 0.85;
+    z-index: 100;
+}
+
+/*!!*/
+.navbar2 {
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    color: rgb(250, 253, 255);
+    opacity: 0.85;
+    z-index: 100;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+
+
+}
+
+/*!!*/
+.navbar2-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+
+}
+
+.menu-items {
+    order: 2;
+    display: flex;
+
+}
+
+.logo {
+    order: 1;
+    font-size: 22px
+}
+
+.menu-items li {
+    list-style: none;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 22px;
+
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a :active {
+    color: orangered;
+
+}
+
+.navbar a:hover {
+    color: orangered;
+}
+
+section {
+    padding: 0px 8%;
+    padding-top: 100px;
+}
+
+.AboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AboutMe2 {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutMe-txt {
+    max-width: 520px;
+    color: white;
+
+
+}
+
+.AboutMe h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    line-height: 70px;
+    margin: auto;
+    height: 57px;
+    margin-left: 5px;
+
+}
+
+.AboutMe h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: auto;
+    margin-left: 6px;
+
+
+}
+
+.AboutMe h2 {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: auto;
+    color: rgba(140, 102, 102, 1);
+    margin-left: 32px;
+
+
+}
+
+.AboutMe h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: auto;
+    color: rgba(61, 189, 229, 1);
+    margin-bottom: 25px;
+    margin-left: 30px;
+    /*  transition: .5s;
+    animation: loadAnimation 1s ease forwards;
+    animation-delay: 1s;*/
+
+
+
+}
+
+.AboutMe p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+.AboutMe-pic {
+    display: flex;
+    justify-content: flex-end;
+    width: 550px;
+    height: 400px;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 28px;
+    margin-top: 40px;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid;
+    background-color: rgba(61, 189, 229, 1);
+    padding: 11px 15px 11px 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.btn a:hover {
+    background-color: rgba(8, 35, 87, 1);
+    border: 2px solid rgba(8, 35, 87, 1);
+    color: rgb(186, 225, 228);
+}
+
+/*responsive style*/
+@media screen and (max-width : 1000px) {
+    AboutMe {
+        flex-direction: column-reverse;
+        overflow: unset;
+        padding: 100px 0px;
+    }
+
+    navbar {
+        padding: 25px 40px;
+    }
+
+    .AboutMe-txt {
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .AboutMe-pic {
+        justify-items: center;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+}
