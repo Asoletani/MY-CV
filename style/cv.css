@@ -103,7 +103,7 @@ body {
 
 section {
     padding: 0px 8%;
-    padding-top: 100px;
+    padding-top: 145px;
 }
 
 .aboutMe {
@@ -175,7 +175,7 @@ section {
     margin-left: 5px;
 }
 
-.aboutMe-pic {
+.aboutMe-img {
     display: flex;
     justify-content: flex-end;
     width: 550px;
@@ -228,10 +228,67 @@ section {
         margin-top: 20px;
     }
 
-    .aboutMe-pic {
+    .aboutMe-img {
         justify-items: center;
         text-align: center;
         margin-top: 20px;
 
     }
+}
+
+.aboutme2 {
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 8rem;
+}
+
+.aboutme2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.aboutme2-text h1 {
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: -60pxpx
+}
+
+.aboutme2-text h2 {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: auto;
+    color: white;
+    margin-top: -5px;
+    margin-left: 50px;
+
+}
+
+.aboutme2-text h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: auto;
+    color: rgba(61, 189, 229, 1);
+    margin-top: 3px;
+    margin-left: 51px;
+}
+
+.aboutme2-text p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: -1px;
+    margin-top: 10px;
+    color: white;
+}
+
+.aboutme2-img img {
+    display: flex;
+    width: 200px;
+    height: 300px;
 }
