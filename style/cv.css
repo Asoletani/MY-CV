@@ -103,8 +103,8 @@ body {
 }
 
 section {
-    padding: 0px 8%;
-    padding-top: 145px;
+    padding: 130px 115px;
+    padding-top: 120px;
 }
 
 .aboutMe {
@@ -239,17 +239,9 @@ section {
 
 .aboutme2 {
     display: grid;
-    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
     gap: 2rem;
-    padding-bottom: 8rem;
-}
-
-.aboutme2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 1.5rem;
 
 }
 
@@ -258,7 +250,7 @@ section {
     color: white;
     font-family: sans-serif;
     margin: auto;
-    margin-top: -60pxpx
+    margin-top: -50px;
 }
 
 .aboutme2-text h2 {
@@ -290,6 +282,9 @@ section {
 
 .aboutme2-img img {
     display: flex;
-    width: 200px;
+    justify-content: flex-end;
+    width: 220px;
     height: 300px;
+    margin: auto;
+    margin-top: -55px;
 }
