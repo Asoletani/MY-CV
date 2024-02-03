@@ -18,33 +18,26 @@ body {
     background-position: center;
 
 }
-
 .navbar {
-
     width: 100%;
     color: rgb(250, 253, 255);
     z-index: 100;
 }
-
-/*!!*/
 .navbar2 {
     position: fixed;
     width: 100%;
-
     color: rgb(250, 253, 255);
+    top: 0;
+    left: 0;
     z-index: 100;
-}
 
+}
 .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 64px;
-
-
 }
-
-/*!!*/
 .navbar2-container {
     display: flex;
     justify-content: space-between;
@@ -52,7 +45,6 @@ body {
     height: 64px;
 
 }
-
 .menu-items {
     order: 2;
     display: flex;
@@ -71,6 +63,7 @@ body {
     margin-right: 35px;
     font-size: 22px;
 
+
 }
 
 .navbar a {
@@ -79,14 +72,20 @@ body {
     font-weight: 500;
     transition: color 0.3s ease-in-out;
 
+
 }
 
 .navbar a :active {
     color: orangered;
+    background-color: rgb(81, 183, 241);
+    border-radius: 10px;
+
+
 }
 
 .navbar a:hover {
     color: orangered;
+
 }
 
 section {
