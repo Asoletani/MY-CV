@@ -18,11 +18,13 @@ body {
     background-position: center;
 
 }
+
 .navbar {
     width: 100%;
     color: rgb(250, 253, 255);
     z-index: 100;
 }
+
 .navbar2 {
     position: fixed;
     width: 100%;
@@ -32,12 +34,14 @@ body {
     z-index: 100;
 
 }
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 64px;
 }
+
 .navbar2-container {
     display: flex;
     justify-content: space-between;
@@ -45,6 +49,7 @@ body {
     height: 64px;
 
 }
+
 .menu-items {
     order: 2;
     display: flex;
@@ -61,7 +66,7 @@ body {
     list-style: none;
     margin-left: 35px;
     margin-right: 35px;
-    font-size: 22px;
+    font-size: 19px;
 
 
 }
@@ -89,7 +94,8 @@ body {
 }
 
 section {
-    padding: 130px 115px;
+
+    padding: 45px 115px;
     padding-top: 120px;
 }
 
@@ -99,15 +105,11 @@ section {
     align-items: center;
 }
 
-.aboutMe2 {
-    display: inline-table;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .aboutMe-txt {
     max-width: 520px;
-    color: white;
+
 
 
 }
@@ -119,6 +121,7 @@ section {
     margin: auto;
     height: 57px;
     margin-left: 5px;
+    color: blanchedalmond;
 
 }
 
@@ -127,6 +130,7 @@ section {
     font-family: sans-serif;
     margin: auto;
     margin-left: 6px;
+    color: blanchedalmond;
 
 
 }
@@ -160,6 +164,8 @@ section {
     font-size: 18px;
     font-family: sans-serif;
     margin-left: 5px;
+    color: blanchedalmond;
+
 }
 
 .aboutMe-img {
@@ -224,26 +230,33 @@ section {
 }
 
 .aboutme2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 2rem;
+    background-color: rgba(5, 10, 31, 1);
+    padding-bottom: 6rem;
 
+}
+
+.aboutme2-text {
+    max-width: 60rem;
 }
 
 .aboutme2-text h1 {
     font-size: 50px;
-    color: white;
+    color: blanchedalmond;
     font-family: sans-serif;
     margin: auto;
-    margin-top: -50px;
+    margin-top: -60pxpx
 }
 
 .aboutme2-text h2 {
     font-size: 15px;
     font-family: sans-serif;
     margin: auto;
-    color: white;
+    color: blanchedalmond;
     margin-top: -5px;
     margin-left: 50px;
 
@@ -266,11 +279,25 @@ section {
     color: white;
 }
 
-.aboutme2-img img {
+.heading {
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.aboutme2-img {
+    position: relative;
+    width: 20px;
+    height: 25px;
+
     display: flex;
-    justify-content: flex-end;
-    width: 220px;
-    height: 300px;
-    margin: auto;
-    margin-top: -55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme2-img img {
+    width: 90px;
+    border-radius: 50px;
+    border: 2rem solid;
 }
