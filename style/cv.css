@@ -176,7 +176,7 @@ section {
   color: rgb(186, 225, 228);
 }
 
-/*responsive style*/
+/*responsive style   این اشتباه باید روش کار کنم */
 @media screen and (max-width: 1000px) {
   aboutMe {
     flex-direction: column-reverse;
