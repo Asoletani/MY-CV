@@ -404,3 +404,22 @@ section {
 .skills-contact .progress h3 span {
   color: antiquewhite;
 }
+.skills-contact .progress .nav-bar {
+  height: 20px;
+  width: 458px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: rgb(14, 211, 211);
+  padding: 15px;
+  margin: 0px 0;
+}
+.skills-contact .progress .nav-bar span {
+  display: block;
+  height: 24px;
+  width: 429px;
+  border-radius: 9px;
+  border: 2px solid;
+  border-color: rgb(14, 211, 211);
+  background-color: rgba(8, 35, 87, 1);
+  margin: -12px 0px 0px -13px;
+}
