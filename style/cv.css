@@ -305,7 +305,6 @@ section {
   align-items: center;
   flex-direction: column;
   min-height: auto;
-
   color: antiquewhite;
 }
 
@@ -363,5 +362,45 @@ section {
   font-size: 15px;
   margin-top: -5px;
   margin-bottom: 0px;
+  color: antiquewhite;
+}
+.skills {
+  min-height: auto;
+  padding-bottom: 7rem;
+}
+.skills .skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.skills-row .skills-column {
+  flex: 1;
+}
+.skills-column .title {
+  font-size: 28px;
+  margin: 40px 0px 40px 35px;
+  color: antiquewhite;
+}
+
+.skills-box .skills-contact {
+  position: relative;
+  padding: 13px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-bottom: 33px;
+  margin-top: -20px;
+  border-color: rgba(61, 189, 229, 1);
+}
+.skills-contact .progress {
+  padding: 20px 0;
+}
+.skills-contact .progress h3 {
+  font-size: 20px;
+  margin-top: -18px;
+  display: flex;
+  justify-content: space-between;
+  color: antiquewhite;
+}
+.skills-contact .progress h3 span {
   color: antiquewhite;
 }
