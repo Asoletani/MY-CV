@@ -364,9 +364,17 @@ section {
   margin-bottom: 0px;
   color: antiquewhite;
 }
+
+/*part4*/
 .skills {
   min-height: auto;
   padding-bottom: 7rem;
+}
+.heading-skills {
+  font-size: 50px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: rgba(61, 189, 229, 1);
 }
 .skills .skills-row {
   display: flex;
@@ -378,7 +386,7 @@ section {
 }
 .skills-column .title {
   font-size: 28px;
-  margin: 40px 0px 40px 35px;
+  margin: 40px 0px 40px 4px;
   color: antiquewhite;
 }
 
@@ -401,9 +409,6 @@ section {
   justify-content: space-between;
   color: antiquewhite;
 }
-.skills-contact .progress h3 span {
-  color: antiquewhite;
-}
 .skills-contact .progress .nav-bar {
   height: 20px;
   width: 458px;
@@ -413,13 +418,83 @@ section {
   padding: 15px;
   margin: 0px 0;
 }
-.skills-contact .progress .nav-bar span {
+.skills-contact .progress .nav-bar .navbar1 {
   display: block;
   height: 24px;
-  width: 429px;
+  width: 370px;
   border-radius: 9px;
   border: 2px solid;
   border-color: rgb(14, 211, 211);
-  background-color: rgba(8, 35, 87, 1);
+  background-color: rgb(14, 211, 211);
+  margin: -12px 0px 0px -13px;
+}
+.skills-contact .progress .nav-bar .navbar2 {
+  display: block;
+  height: 24px;
+  width: 370px;
+  border-radius: 9px;
+  border: 2px solid;
+  border-color: rgb(14, 211, 211);
+  background-color: rgb(14, 211, 211);
+  margin: -12px 0px 0px -13px;
+}
+.skills-contact .progress .nav-bar .navbar3 {
+  display: block;
+  height: 24px;
+  width: 30px;
+  border-radius: 9px;
+  border: 2px solid;
+  border-color: rgb(14, 211, 211);
+  background-color: rgb(14, 211, 211);
+  margin: -12px 0px 0px -13px;
+}
+.skills-contact .progress .nav-bar .navbar4 {
+  display: block;
+  height: 24px;
+  width: 415px;
+  border-radius: 9px;
+  border: 2px solid;
+  border-color: rgb(14, 211, 211);
+  background-color: rgb(14, 211, 211);
+  margin: -12px 0px 0px -13px;
+}
+.skills-contact .progress .nav-bar .navbar5 {
+  display: block;
+  height: 24px;
+  width: 300px;
+  border-radius: 9px;
+  border: 2px solid;
+  border-color: rgb(14, 211, 211);
+  background-color: rgb(14, 211, 211);
+  margin: -12px 0px 0px -13px;
+}
+.skills-contact .progress .nav-bar .navbar6 {
+  display: block;
+  height: 24px;
+  width: 450px;
+  border-radius: 9px;
+  border: 2px solid;
+  border-color: rgb(14, 211, 211);
+  background-color: rgb(14, 211, 211);
+  margin: -12px 0px 0px -13px;
+}
+.skills-contact .progress .nav-bar .navbar7 {
+  display: block;
+  height: 24px;
+  width: 300px;
+  border-radius: 9px;
+  border: 2px solid;
+  border-color: rgb(14, 211, 211);
+  background-color: rgb(14, 211, 211);
+  margin: -12px 0px 0px -13px;
+}
+.skills-contact .progress .nav-bar .navbar8 {
+  display: block;
+  height: 24px;
+  width: 100px;
+  border-radius: 9px;
+  border: 2px solid;
+  border-color: rgb(14, 211, 211);
+  background-color: rgb(14, 211, 211);
   margin: -12px 0px 0px -13px;
 }
