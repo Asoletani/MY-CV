@@ -35,7 +35,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 64px;
+  height: 90px;
 }
 
 .navbar2-container {
@@ -43,17 +43,19 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 64px;
+  padding: 0px 45px;
 }
 
 .menu-items {
   order: 2;
   display: flex;
+  margin-right: 155px;
 }
 
 .logo {
   order: 1;
   font-size: 22px;
-  margin-left: 30px;
+  margin-left: 70px;
 }
 
 .menu-items li {
@@ -81,8 +83,8 @@ body {
 }
 
 section {
-  padding: 45px 145px;
-  padding-top: 80px;
+  padding: 45px 300px;
+  padding-top: 230px;
 }
 
 .aboutMe {
@@ -92,7 +94,7 @@ section {
 }
 
 .aboutMe-txt {
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .aboutMe h1 {
@@ -212,7 +214,7 @@ section {
   background-color: rgba(5, 10, 31, 1);
   padding-bottom: 2rem;
   text-align: center;
-  margin-top: 10px;
+  margin-top: -146px;
 }
 
 .aboutme2-text {
@@ -334,7 +336,7 @@ section {
 }
 .heading-education {
   font-size: 50px;
-  margin-bottom: 5px;
+  margin-bottom: 48px;
   text-align: center;
   color: rgba(61, 189, 229, 1);
 }
