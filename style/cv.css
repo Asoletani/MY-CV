@@ -559,26 +559,42 @@ section {
   padding: 17px 20px 13px 15px;
   margin: 31px 1px -1px 20px;
   border-radius: 36px;
+  cursor: pointer;
   letter-spacing: 1px;
   transition: 0.3s;
 }
 
-/*part footer*/  
+.btn-contact a:hover {
+  background-color: rgba(8, 35, 87, 1);
+  border: 2px solid rgba(8, 35, 87, 1);
+  color: rgb(186, 225, 228);
+}
+
+/*part footer*/
 .footer-icontop a {
   width: 50px;
   height: 47px;
-  position: relative;
   display: inline-block;
-  justify-content: center;
-  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid;
+  border-color: rgba(61, 189, 229, 1);
+  background-color: rgb(5, 74, 95);
   padding: 9px;
-  margin-left: 1820px;
-  border: 3px solid;
+  margin: 31px 1px -1px 1815px;
   border-radius: 10px;
-  background-color: rgba(61, 189, 229, 1);
-  border-color: rgb(5, 74, 95);
+  letter-spacing: 1px;
+  transition: 0.3s;
 }
 .footer-icontop a i {
   font-size: 25px;
   color: black;
+}
+
+.footer-icontop a:hover {
+  background-color: rgba(61, 189, 229, 1);
+  border: 2px solid rgba(61, 189, 229, 1);
+  color: rgb(186, 225, 228);
 }
