@@ -210,7 +210,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2rem; /*فاصله بین ستون یا باکس ها رو تعیین می کند*/
   background-color: rgba(5, 10, 31, 1);
   padding-bottom: 2rem;
   text-align: center;
@@ -305,14 +305,14 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; /* با این کد می توان تعییت کرد که عناصر (حالا منظور عناصر شامل همه چیز که در سایت هست )در یک فلیکس باکس به چه صورتی باشد افقی یا عمودی */
   min-height: auto;
   color: rgb(85, 181, 211);
 }
 
 .education .education-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* برای چیدمان بین عناصر استفاده میشه و به تنهای هم کاربرد نداردو با فلیکسبل میاد*/
   gap: 5rem;
 }
 
@@ -525,21 +525,25 @@ section {
   width: 427px;
   height: 70px;
   padding: 34px;
-  font-size: 15px;
-  color: rgb(5, 74, 95);
+  font-size: 20px;
+  color: white;
+
   background: transparent;
   border-radius: 10px;
   border: 3px solid;
+  border-color: rgb(5, 74, 95);
 }
 .contact form .textarea-field textarea {
   width: 885px;
   height: 240px;
   padding: 34px;
-  font-size: 15px;
-  color: rgb(5, 74, 95);
+  font-size: 20px;
+  color: white;
+
   background: transparent;
   border-radius: 10px;
   border: 3px solid;
+  border-color: rgb(5, 74, 95);
 }
 
 .btn-contact a {
@@ -557,4 +561,24 @@ section {
   border-radius: 36px;
   letter-spacing: 1px;
   transition: 0.3s;
+}
+
+/*part footer*/  
+.footer-icontop a {
+  width: 50px;
+  height: 47px;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+  margin-left: 1820px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: rgba(61, 189, 229, 1);
+  border-color: rgb(5, 74, 95);
+}
+.footer-icontop a i {
+  font-size: 25px;
+  color: black;
 }
