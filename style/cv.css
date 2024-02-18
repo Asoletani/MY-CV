@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 @keyframes loadAnimation {
@@ -14,6 +16,7 @@ body {
   height: 100vh;
   background-color: rgba(5, 10, 31, 1);
   background-position: center;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -83,6 +86,7 @@ body {
 }
 
 section {
+  height: 100vh;
   padding: 45px 300px;
   padding-top: 230px;
 }
@@ -91,6 +95,11 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 2rem 0;
 }
 
 .aboutMe-txt {
@@ -146,8 +155,7 @@ section {
 .aboutMe-img {
   display: flex;
   justify-content: flex-end;
-  width: 550px;
-  height: 400px;
+width: auto;
 }
 
 .btn-aboutMe {
@@ -179,22 +187,13 @@ section {
 }
 
 /*responsive style   */
-@media screen and (max-width: 1400px) {
-  body {
-    flex-direction: column-reverse;
-    overflow: unset;
-    padding: 127px 20px;
-  }
-  .contact form {
-    max-width: 909px;
-    margin: 118px 0px 0px -75;
-  }
-  /*aboutMe {
+@media screen and (max-width: 1000px) {
+  .aboutMe {
     flex-direction: column-reverse;
     overflow: unset;
     padding: 100px 0px;
   }
-
+ 
   navbar {
     padding: 25px 40px;
   }
@@ -208,7 +207,7 @@ section {
   .aboutMe-img {
     justify-items: center;
     text-align: center;
-    margin-top: 20px;*/
+    margin-top: 20px;
 }
 
 /*part2*/
@@ -322,6 +321,7 @@ section {
   display: flex;
   flex-wrap: wrap; /* برای چیدمان بین عناصر استفاده میشه و به تنهای هم کاربرد نداردو با فلیکسبل میاد*/
   gap: 5rem;
+  padding: 0 15px;
 }
 
 .education-row .education-column {
@@ -515,7 +515,7 @@ section {
 }
 .contact form {
   max-width: 900px;
-  margin: 105px 0px 0px 214px;
+  
   text-align: center;
 }
 .contact form .input-box {
@@ -605,4 +605,5 @@ section {
   background-color: rgba(61, 189, 229, 1);
   border: 2px solid rgba(61, 189, 229, 1);
   color: rgb(186, 225, 228);
+}
 }
