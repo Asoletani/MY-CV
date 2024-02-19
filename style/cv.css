@@ -299,6 +299,8 @@ section {
   flex-wrap: wrap; /* برای چیدمان بین عناصر استفاده میشه و به تنهای هم کاربرد نداردو با فلیکسبل میاد*/
   gap: 5rem;
   padding: 0 15px;
+  padding: 1px 49px 47px 54px;
+  margin: 14px 285px 1px 231px;
 }
 
 .education-row .education-column {
@@ -592,5 +594,8 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+  padding: 2rem 0;
 }
 
