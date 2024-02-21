@@ -20,16 +20,11 @@ body {
   background-position: center;
 }
 
-.navbar {
-  width: 100%;
-  color: rgb(250, 253, 255);
-  z-index: 100;
-}
-
-.navbar2 {
+.header {
   position: relative;
   width: 100%;
   color: rgb(250, 253, 255);
+  background-color: rgb(10, 24, 82);
   top: 0;
   left: 0;
   z-index: 100;
@@ -40,13 +35,6 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 90px;
-}
-
-.navbar2-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 64px;
 }
 
 .menu-items {
@@ -68,20 +56,20 @@ body {
   font-size: 19px;
 }
 
-.navbar a {
+.header a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
-.navbar a :active {
+.header a :active {
   color: orangered;
   background-color: rgb(81, 183, 241);
   border-radius: 10px;
 }
 
-.navbar a:hover {
+.header a:hover {
   color: orangered;
 }
 
