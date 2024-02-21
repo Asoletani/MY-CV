@@ -607,10 +607,6 @@ section {
   }
 }
 
-section {
-  padding: 45px 300px;
-  padding-top: 230px;
-}
 .sections {
   min-height: 100vh;
   display: flex;
