@@ -15,32 +15,32 @@
 
 body {
   /* width: 100%;
-  height: 100vh;*/
+  height: 100vh; */
   background-color: rgba(5, 10, 31, 1);
-  background-position: center;
+  /* background-position: center; */
 }
 
 .header {
-  /* position: relative;*/
+  /* position: relative; */
   width: 100%;
   color: rgb(250, 253, 255);
   background-color: rgb(10, 24, 82);
-  /*top: 0;
-  left: 0;*/
+  /* top: 0;
+  left: 0; */
   z-index: 100;
 }
 
 .navbar-container {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 90px;
+  height: 90px; */
 }
 
 .menu-items {
   order: 2;
   display: flex;
-  margin-right: 155px;
+  /* margin-right: 155px; */
 }
 
 .logo {
@@ -83,8 +83,8 @@ section {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  gap: 2rem;
   min-height: 100vh;
-  justify-content: center;
   margin: 0;
   padding: 2rem 0;
 }
@@ -407,7 +407,7 @@ section {
   border: 3px solid;
   border-color: rgb(5, 74, 95);
   padding: 15px;
-  margin: 4px 0;
+  margin: 0px 0;
 }
 .skills-contact .progress .nav-bar .navbar1 {
   display: block;
@@ -527,7 +527,6 @@ section {
   padding: 34px;
   font-size: 20px;
   color: white;
-
   background: transparent;
   border-radius: 10px;
   border: 3px solid;
@@ -587,8 +586,8 @@ section {
   color: rgb(186, 225, 228);
 }
 
-/*.sections {
-  min-height: 100vh;
+/* .sections {
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -596,277 +595,96 @@ section {
   margin: 0;
   padding: 0;
   padding: 2rem 0;
-}*/
+} */
 
 /*respansive*/
-@media screen and (min-width: 425px) {
+/*@media (min-width: 425px) {
   body {
-    width: 100%;
-    height: 100vh;
+    background-color: rgba(5, 10, 31, 1);
   }
-
-  .sections {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    padding: 4rem 2rem 2rem 2rem;
+  #aboutMe {
+    flex-direction: column-reverse;
   }
+}
+@media (min-width: 768px) {
+  body {
+    background-color: silver;
+  }
+  #aboutMe {
+    flex-direction: row;
+  }
+}*/
+@media (min-width: 375px) {
   .header {
-    position: relative;
-    width: 1785px;
-    color: rgb(250, 253, 255);
-    z-index: 100;
+    width: 1190px;
   }
-
+  .logo {
+    padding: 33px 1px 2px 53px;
+  }
   .navbar-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90px;
-    width: 1781px;
+    height: 86px;
+    width: 1185px;
   }
-
   .menu-items {
-    order: 2;
-    display: flex;
+    padding: 34px 0px 1px 267px;
   }
-
-  .header a :active {
-    color: orangered;
-    background-color: rgb(81, 183, 241);
-    border-radius: 10px;
-  }
-
-  .header a:hover {
-    color: orangered;
-  }
-
   .aboutMe {
+    padding: 228px 1px 632px 234px;
     display: flex;
+    gap: 0rem;
     align-items: center;
-    flex-direction: row;
-    min-height: 100vh;
-    margin: 178px -560px 0px 268px;
+    /* flex-direction: column; */
+    text-align: center;
   }
-  .aboutMe h1 {
-    font-size: 60px;
-    font-family: sans-serif;
-    line-height: 70px;
-    margin-top: 10px;
-    height: 57px;
-    margin-left: 5px;
-    color: blanchedalmond;
+  .aboutMe-img {
+    display: none;
   }
-  .aboutMe h2 {
-    font-size: 15px;
-    font-family: sans-serif;
-    color: rgba(140, 102, 102, 1);
-    margin-left: 32px;
-    margin-top: 10px;
+  .btn-aboutMe {
+    padding: 0px 0px 0px 236px;
   }
   .aboutMe h3 {
     font-size: 10px;
-    font-family: sans-serif;
-    margin-top: 10px;
-    margin-left: 6px;
-    color: blanchedalmond;
   }
-  .aboutMe p {
-    font-size: 18px;
-    font-family: sans-serif;
-    color: blanchedalmond;
-  }
-
-  .btn-aboutMe a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    border: 2px solid;
-    border-color: rgba(61, 189, 229, 1);
-    background-color: rgb(5, 74, 95);
-    padding: 10px 23px 12px 23px;
-    margin: 2px 1px -1px 250px;
-    border-radius: 36px;
-    letter-spacing: 1px;
-    transition: 0.3s;
-  }
-  .btn-aboutMe a:hover {
-    background-color: rgba(8, 35, 87, 1);
-    border: 2px solid rgba(8, 35, 87, 1);
-    color: rgb(186, 225, 228);
-  }
-  .aboutMe-img {
-    display: flex;
-    justify-content: flex-end;
-    width: auto;
-    margin: 10px 0px 0px 10px;
-  }
-  /*part2*/
   .aboutme2 {
+    padding: 1px 59px 0px 223px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
-    margin: 491px -557px 0px 182px;
-  }
-  .aboutme2-text {
-    max-width: 60rem;
-  }
-
-  .aboutme2-text h1 {
-    font-size: 15px;
-    color: rgba(140, 102, 102, 1);
-    font-family: sans-serif;
-    margin: auto;
-    margin-top: -22px;
-    margin-right: 98px;
-  }
-
-  .aboutme2-text h2 {
-    font-size: 20px;
-    font-family: sans-serif;
-    margin: auto;
-    color: blanchedalmond;
-    margin-top: -5px;
-    margin-left: 50px;
-  }
-
-  .aboutme2-text h4 {
-    font-size: 25px;
-    font-family: sans-serif;
-    margin: auto;
-    color: rgba(61, 189, 229, 1);
-    margin-top: 3px;
-  }
-
-  .aboutme2-text p {
-    font-size: 18px;
-    font-family: sans-serif;
-    margin-left: 53px;
-    margin-top: 39px;
-    color: blanchedalmond;
-  }
-
-  .heading {
-    font-size: 50px;
-    margin-bottom: 30px;
     text-align: center;
-    color: rgba(61, 189, 229, 1);
   }
-
-  .aboutme2-img {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .btn-aboutMe2 {
+    padding: 0px 0px 0px 120px;
   }
-
-  .aboutme2-img img {
-    width: 150px;
-    height: 235px;
-    border-radius: 50px;
-    border: 2px solid;
-    margin-top: -37px;
-    border-color: rgba(61, 189, 229, 1);
-  }
-
-  .btn-aboutMe2 a {
-    display: inline-block;
-    width: 200px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    border: 2px solid;
-    border-color: rgba(61, 189, 229, 1);
-    background-color: rgb(5, 74, 95);
-    padding: 11px 15px 11px 15px;
-    border-radius: 36px;
-    letter-spacing: 1px;
-    transition: 0.3s;
-    margin-top: 40px;
-  }
-
-  .btn-aboutMe2 a:hover {
-    background-color: rgba(8, 35, 87, 1);
-    border: 2px solid rgba(8, 35, 87, 1);
-    color: rgb(186, 225, 228);
-  }
-
-  /*part3*/
   .education {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-    color: rgb(85, 181, 211);
-    margin: 409px -740px 1px 13px;
+    padding: 91px 0px 4px 44px;
   }
-
   .education .education-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
-    padding: 0 15px;
-    padding: 0px -40px 47px 55px;
-    margin: 2px 251px 1px 174px;
+    padding: 1px 20px 2px 3px;
+    gap: 0rem;
   }
-
-  .education-column .title {
-    font-size: 28px;
-    margin: 40px 0px 40px 60px;
-  }
-
-  /*part4*/
   .skills {
-    min-height: auto;
-    padding-bottom: 7rem;
-    margin: 350px -706px 1px 85px;
+    padding: 105px 190px 3px 311px;
   }
-  .heading-skills {
-    font-size: 50px;
-    margin-bottom: 40px;
-    text-align: center;
-    color: rgba(61, 189, 229, 1);
+  .skills .skills-row {
+    gap: 0rem;
   }
-  .skills-column .title {
-    font-size: 28px;
-    margin: 40px 0px 40px 4px;
-    color: rgb(56, 156, 187);
-  }
-
-  /*part5 contact*/
   .contact {
-    min-height: auto;
-    margin: 248px -720px 2px 0px;
+    padding: 54px 251px 1px 333px;
   }
-
-  /*part footer*/
-  .footer-icontop a {
-    width: 50px;
-    height: 47px;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    border: 2px solid;
-    border-color: rgba(61, 189, 229, 1);
-    background-color: rgb(5, 74, 95);
-    padding: 9px;
-    margin: 31px 1px -1px 1640px;
-    border-radius: 10px;
-    letter-spacing: 1px;
-    transition: 0.3s;
+  .contact form .input-box {
+    gap: 0rem;
+  }
+  .contact form {
+    width: 10px;
+  }
+  .contact form .textarea-field textarea {
+    width: 575px;
+    height: 240px;
+  }
+  .btn-contact a {
+    width: 0px;
+    height: 42px;
+    padding: 9px 106px 0px 38px;
   }
 }
-
-/*@media (min-width: 576px) { 
-
- }*/
